@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -21,6 +21,7 @@ body {
 /*-- Section 1 -- */
 
 .section-1 {
+    flex: 1;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -99,10 +100,12 @@ body {
 /*-- Section 2 -- */
 
 .section-2 {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .section-2 h2 {
@@ -138,4 +141,29 @@ body {
 
 .info-box p {
     text-align: center;
+}
+
+/*-- Section 3 -- */
+
+.section-3 {
+    flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 750px;
+    margin: auto;
+}
+
+.author {
+    text-align: end;
+    width: 800px;
 }
