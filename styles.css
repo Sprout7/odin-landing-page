@@ -167,3 +167,38 @@ body {
     text-align: end;
     width: 800px;
 }
+
+/*-- Section 4 -- */
+
+.section-4 {
+    padding: 56px 0;
+
+}
+
+.action-container {
+    background-color: #3882f6;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 16px;
+    border-radius: 8px;
+}
+
+.action-left {
+    color: white;
+}
+
+.action-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-right button {
+    background-color: #3882f6;
+    color: white;
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
